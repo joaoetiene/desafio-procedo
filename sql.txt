@@ -1,0 +1,25 @@
+CREATE TABLE usuario(
+	id_usuario SERIAL PRIMARY KEY,
+	nome VARCHAR(40),
+	email VARCHAR (40),
+	sexo VARCHAR (10),
+	telefone VARCHAR (25),
+	estado VARCHAR (25),
+	cidade VARCHAR (25),
+	situacao BOOLEAN,
+	senha VARCHAR (35)
+);
+
+CREATE TABLE cliente(
+	id_usuario integer,
+	CONSTRAINT fk_id_usuario FOREIGN KEY (id_usuario) REFERENCES usuario (id_usuario),
+	codigo SERIAL PRIMARY KEY,
+	nome VARCHAR(40),
+	email VARCHAR (40),
+	doc VARCHAR (25),
+	telefone VARCHAR (25),
+	origem VARCHAR (15),
+	estado VARCHAR (25),
+	cidade VARCHAR (25),
+	situacao BOOLEAN
+);

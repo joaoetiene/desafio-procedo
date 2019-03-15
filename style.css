@@ -1,0 +1,48 @@
+#campo, #tel, #doc, #cidade1, #estado1 {
+    width: 250px;
+}
+
+#estado2{
+    width: 100px;
+}
+
+#myorigem{
+    width: 150px;
+}
+
+
+#txtforgot {
+    color: cadetblue;
+    font-style: italic;   
+}
+
+#txt {
+    width: 350px;
+}
+
+#objcts {
+    width: 250px;
+    text-align: left;
+}
+
+#senha {
+    font-size: 12px;
+    font-style: italic;
+    color: grey;
+    width: 200px;
+    height: 100px;
+    text-align: justify;
+}
+
+#checks {
+    width: 240px;
+    text-align: justify;
+    background-color:ghostwhite;
+    text-shadow: 1px 1px 4px gainsboro;        
+}
+
+
+
+#click {
+    cursor:pointer;
+}
